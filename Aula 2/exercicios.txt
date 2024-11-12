@@ -1,0 +1,12 @@
+1 - Uma classe é um "molde" ou "modelo" que define as propriedades (atributos) e comportamentos (métodos) de um objeto. Em termos simples, é como uma receita que desreve como criar objetos específicos. As classes são fundamentais na programação orientada a objetos, pois ajudam a organizar e estruturar o código de maneira mais eficiente.
+2- public class nomeDoArquivo(){
+Texto
+}
+3- classe são representadas pelos atributos. No exemplo acima, nome e idade são atributos da classe Pessoa.
+* 4 - Privados (private): Acessíveis apenas dentro da própria classe.
+* Públicos (public): Acessíveis de qualquer lugar do programa.
+* Protegidos (protected): Acessíveis dentro da própria classe e subclasses (ou classes derivadas).
+* Padrão (sem modificador): Acessíveis dentro do mesmo pacote.
+5 - A regra básica para criar um método envolve definir seu modificador de acesso (como public ou private), seu tipo de retorno (como void se não retornar nada), seu nome, e quaisquer parâmetros que ele pode receber.
+6 - Os métodos set e get são usados para acessar e modificar os atributos privados de uma classe. Eles garantem o encapsulamento, ou seja, o controle sobre como os atributos de uma classe são acessados e alterados.
+
