@@ -1,0 +1,15 @@
+
+1. O que é composição?
+A Composição é um conceito de programação orientada a objetos em que uma classe é formada por outras classes. 
+Ela estabelece uma relação "tem-um" entre objetos, permitindo que uma classe seja composta de uma ou mais instâncias de outras classes. 
+Por exemplo, uma classe Carro pode ser composta pelas classes Motor, Roda e Porta.
+
+2. Vantagens de usar composição:
+- Reutilização de código: Os componentes das classes podem ser reutilizados em diferentes contextos.
+- Modularidade: Facilita a manutenção e o teste, já que os componentes podem ser desenvolvidos e testados separadamente.
+- Flexibilidade: Permite a alteração de um componente sem afetar a classe que o utiliza, desde que as interfaces sejam respeitadas.
+- Legibilidade: Ajuda a organizar o código, tornando-o mais intuitivo.
+
+3. Qual caso de instanciação omite a presença da Composição?
+O caso 3 (instanciação no método) omite a presença da Composição. Nesse caso, os objetos componentes são criados diretamente dentro do método 
+onde serão utilizados, sem a necessidade de expor sua existência para quem utiliza a classe.

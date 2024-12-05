@@ -1,0 +1,16 @@
+Polimorfismo é um conceito da programação orientada a objetos que permite que objetos de diferentes classes sejam tratados como objetos de uma classe comum. Em termos simples, é a capacidade de uma função ou método de se comportar de maneira diferente com base no objeto que o invoca, permitindo que uma única interface seja utilizada para diferentes tipos de dados.
+
+Tipos de polimorfismo:
+Polimorfismo de sobrecarga: Ocorre quando duas ou mais funções ou métodos têm o mesmo nome, mas diferem em seus parâmetros (número ou tipo).
+
+Polimorfismo de sobreposição (ou sobrescrita): Ocorre quando um método em uma classe derivada tem o mesmo nome e assinatura que um método em sua classe base, permitindo que a implementação da classe derivada substitua a implementação da classe base.
+
+Polimorfismo de inclusão: Relaciona-se à herança, onde uma classe derivada pode ser tratada como uma instância da classe base.
+
+Finalidade do polimorfismo de sobrecarga: A sobrecarga permite que métodos com o mesmo nome realizem diferentes operações com base nos parâmetros fornecidos. Isso melhora a legibilidade do código e permite que o programador use um nome de método intuitivo para diferentes operações.
+
+Conversão de tipos refere-se ao processo de transformar um valor de um tipo de dado em outro tipo. Isso pode ser feito de forma explícita (casting) ou implícita (automaticamente pelo compilador). A conversão é importante para garantir que os dados sejam compatíveis entre diferentes tipos.
+
+Polimorfismo de sobreposição: Ocorre quando uma classe derivada fornece uma implementação específica de um método que já foi definido na sua classe base. Isso permite que a classe derivada altere o comportamento do método.
+
+Polimorfismo de inclusão: Este tipo de polimorfismo permite que uma classe derivada seja tratada como uma instância da classe base. Isso é fundamental para a implementação de interfaces e herança, permitindo que métodos que aceitam a classe base funcionem com qualquer classe derivada.
